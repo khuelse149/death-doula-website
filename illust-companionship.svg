@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Minimal geometric: flame cradled by two arcs -->
+  <g stroke="#9A4F35" stroke-width="1.8" stroke-linecap="round">
+    <!-- Left arc -->
+    <path d="M16,58 C12,46 16,32 28,26" fill="none"/>
+    <!-- Right arc -->
+    <path d="M64,58 C68,46 64,32 52,26" fill="none"/>
+    <!-- Flame -->
+    <path d="M40,48 C36,40 34,32 37,24 C38.5,20 40,16 40,12 C40,16 41.5,20 43,24 C46,32 44,40 40,48 Z"
+          fill="#C49A50" fill-opacity="0.15" stroke="#9A4F35"/>
+    <!-- Inner glow dot -->
+    <circle cx="40" cy="32" r="3" fill="#C49A50" fill-opacity="0.2" stroke="none"/>
+    <!-- Base line -->
+    <line x1="22" y1="62" x2="58" y2="62" opacity="0.3"/>
+  </g>
+</svg>

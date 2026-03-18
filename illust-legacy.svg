@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Minimal geometric: open book with small leaf -->
+  <g stroke="#9A4F35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left page -->
+    <path d="M12,58 L12,24 C12,22 14,20 16,20 L40,20 L40,58 C30,60 20,58 12,58 Z" fill="#C49A50" fill-opacity="0.06"/>
+    <!-- Right page -->
+    <path d="M68,58 L68,24 C68,22 66,20 64,20 L40,20 L40,58 C50,60 60,58 68,58 Z" fill="#C49A50" fill-opacity="0.06"/>
+    <!-- Spine -->
+    <line x1="40" y1="20" x2="40" y2="58"/>
+    <!-- Page lines -->
+    <line x1="20" y1="30" x2="34" y2="30" opacity="0.25"/>
+    <line x1="20" y1="36" x2="32" y2="36" opacity="0.2"/>
+    <line x1="20" y1="42" x2="30" y2="42" opacity="0.15"/>
+    <line x1="46" y1="30" x2="60" y2="30" opacity="0.25"/>
+    <line x1="46" y1="36" x2="58" y2="36" opacity="0.2"/>
+    <!-- Small leaf accent above -->
+    <path d="M40,20 C36,14 34,8 38,4 C40,2 42,4 42,8 C42,12 40,16 40,20" fill="#8A9A7B" fill-opacity="0.15" stroke="#8A9A7B" stroke-width="1.2"/>
+  </g>
+</svg>

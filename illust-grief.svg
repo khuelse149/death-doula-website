@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Minimal geometric: small sprout with two leaves from a circle (seed) -->
+  <g stroke="#9A4F35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Ground line -->
+    <line x1="16" y1="62" x2="64" y2="62" opacity="0.3"/>
+    <!-- Stem -->
+    <path d="M40,62 C40,52 39,42 40,32" fill="none"/>
+    <!-- Left leaf -->
+    <path d="M40,46 C32,40 26,32 28,24 C30,28 34,34 40,40"
+          fill="#8A9A7B" fill-opacity="0.12" stroke="#8A9A7B" stroke-width="1.5"/>
+    <!-- Right leaf -->
+    <path d="M40,38 C48,32 54,24 52,16 C50,20 46,28 40,34"
+          fill="#8A9A7B" fill-opacity="0.12" stroke="#8A9A7B" stroke-width="1.5"/>
+    <!-- Small unfurling bud at top -->
+    <path d="M40,32 C38,26 37,20 39,14 C39.5,12 40,10 40,8"
+          fill="none" stroke="#8A9A7B" stroke-width="1.5"/>
+    <path d="M40,32 C42,26 43,20 41,14 C40.5,12 40,10 40,8"
+          fill="none" stroke="#8A9A7B" stroke-width="1.5"/>
+    <!-- Seed circle at base -->
+    <circle cx="40" cy="64" r="4" fill="#C49A50" fill-opacity="0.15" stroke="#9A4F35"/>
+  </g>
+</svg>

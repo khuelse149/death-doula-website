@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Minimal geometric: crescent moon with three stars -->
+  <g stroke="#9A4F35" stroke-width="1.8" stroke-linecap="round">
+    <!-- Crescent moon -->
+    <path d="M48,12 C38,16 32,26 32,38 C32,50 38,60 48,64
+             C42,60 38,50 38,38 C38,26 42,16 48,12 Z"
+          fill="#C49A50" fill-opacity="0.12" stroke="#9A4F35"/>
+    <!-- Star 1 — large -->
+    <path d="M58,20 L60,14 L62,20 L68,22 L62,24 L60,30 L58,24 L52,22 Z"
+          fill="#C49A50" fill-opacity="0.15" stroke="#9A4F35" stroke-width="1.4"/>
+    <!-- Star 2 — medium -->
+    <path d="M62,42 L63.5,38 L65,42 L69,43.5 L65,45 L63.5,49 L62,45 L58,43.5 Z"
+          fill="#C49A50" fill-opacity="0.1" stroke="#9A4F35" stroke-width="1.2"/>
+    <!-- Star 3 — small -->
+    <circle cx="54" cy="52" r="1.8" fill="#C49A50" fill-opacity="0.2" stroke="#9A4F35" stroke-width="1"/>
+    <!-- Dot -->
+    <circle cx="66" cy="56" r="1" fill="#9A4F35" opacity="0.3" stroke="none"/>
+  </g>
+</svg>
