@@ -1,62 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 80" fill="none">
-  <!-- Hand-drawn botanical section divider — dried flowers and branches -->
-  <g stroke="#B69B68" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Main horizontal branch, slightly wavy -->
-    <path d="M80,42 C120,40 160,44 200,41 C240,38 270,43 300,40 C330,37 360,43 400,41 C440,39 480,42 520,40" stroke-width="1.8" opacity="0.7"/>
-    <!-- Secondary thinner line underneath for sketchy quality -->
-    <path d="M90,43 C130,41 170,45 210,42 C250,39 280,44 310,41 C340,38 370,44 410,42 C450,40 490,43 510,41" stroke-width="0.7" opacity="0.35"/>
-
-    <!-- Left dried flower cluster -->
-    <!-- Stem -->
-    <path d="M180,42 C178,34 175,26 172,18" stroke-width="1.2" opacity="0.6"/>
-    <!-- Seed pod head -->
-    <ellipse cx="171" cy="14" rx="5" ry="7" transform="rotate(-8,171,14)" stroke-width="1" opacity="0.55"/>
-    <path d="M171,7 L170,3" stroke-width="0.8" opacity="0.4"/>
-    <!-- Small leaf -->
-    <path d="M177,30 C183,26 186,22 184,18" stroke-width="0.8" opacity="0.45"/>
-    <path d="M177,30 C180,28 182,24 184,18" stroke-width="0.5" opacity="0.3" fill="#B69B68" fill-opacity="0.06"/>
-
-    <!-- Center-left small berry cluster -->
-    <path d="M250,41 C248,35 244,30 242,24" stroke-width="1" opacity="0.5"/>
-    <circle cx="241" cy="22" r="2.5" stroke-width="0.9" opacity="0.45" fill="#B69B68" fill-opacity="0.08"/>
-    <circle cx="245" cy="20" r="2" stroke-width="0.8" opacity="0.4" fill="#B69B68" fill-opacity="0.06"/>
-    <circle cx="238" cy="19" r="2.2" stroke-width="0.8" opacity="0.4" fill="#B69B68" fill-opacity="0.06"/>
-
-    <!-- Center dried flower — the main attraction -->
-    <!-- Main stem -->
-    <path d="M300,40 C299,32 298,24 297,16 C296,12 297,8 298,5" stroke-width="1.4" opacity="0.65"/>
-    <!-- Flower head petals (dried, slightly open) -->
-    <path d="M298,5 C292,3 288,6 286,10 C284,14 287,16 290,15" stroke-width="0.9" opacity="0.5"/>
-    <path d="M298,5 C304,2 308,5 310,9 C312,13 309,16 306,15" stroke-width="0.9" opacity="0.5"/>
-    <path d="M298,5 C296,0 298,-2 301,0 C304,2 303,5 301,6" stroke-width="0.8" opacity="0.45"/>
-    <path d="M298,5 C294,1 292,0 290,2 C288,4 290,7 293,7" stroke-width="0.8" opacity="0.45"/>
-    <!-- Center detail -->
-    <circle cx="298" cy="6" r="2" stroke-width="0.6" opacity="0.35" fill="#B69B68" fill-opacity="0.1"/>
-    <!-- Leaves on center stem -->
-    <path d="M299,22 C305,18 310,16 312,14" stroke-width="0.8" opacity="0.4"/>
-    <path d="M297,28 C291,25 287,24 285,22" stroke-width="0.8" opacity="0.4"/>
-    <!-- Leaf shapes -->
-    <path d="M299,22 C306,19 311,16 312,14 C310,17 305,20 299,22 Z" fill="#B69B68" fill-opacity="0.05" stroke="none"/>
-    <path d="M297,28 C290,25 286,24 285,22 C287,24 292,26 297,28 Z" fill="#B69B68" fill-opacity="0.05" stroke="none"/>
-
-    <!-- Center-right wispy grass/stem -->
-    <path d="M350,41 C352,34 355,27 358,22 C360,19 363,16 366,14" stroke-width="0.9" opacity="0.45"/>
-    <path d="M358,22 C354,18 352,14 353,10" stroke-width="0.7" opacity="0.35"/>
-
-    <!-- Right dried flower cluster -->
-    <!-- Stem -->
-    <path d="M420,41 C422,33 424,25 423,17" stroke-width="1.2" opacity="0.6"/>
-    <!-- Dried lavender-like head -->
-    <ellipse cx="423" cy="14" rx="3" ry="4" stroke-width="0.8" opacity="0.5" fill="#B69B68" fill-opacity="0.08"/>
-    <ellipse cx="422" cy="10" rx="2.5" ry="3" stroke-width="0.7" opacity="0.45" fill="#B69B68" fill-opacity="0.06"/>
-    <ellipse cx="423" cy="7" rx="2" ry="2.5" stroke-width="0.6" opacity="0.4" fill="#B69B68" fill-opacity="0.04"/>
-    <!-- Small leaf -->
-    <path d="M421,26 C416,22 413,20 412,17" stroke-width="0.7" opacity="0.4"/>
-
-    <!-- Tiny accent dots/seeds scattered -->
-    <circle cx="150" cy="40" r="1" fill="#B69B68" opacity="0.25"/>
-    <circle cx="230" cy="38" r="0.8" fill="#B69B68" opacity="0.2"/>
-    <circle cx="370" cy="43" r="0.9" fill="#B69B68" opacity="0.22"/>
-    <circle cx="460" cy="41" r="1.1" fill="#B69B68" opacity="0.2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 24" fill="none">
+  <!-- Clean minimal divider: line with diamond accent -->
+  <g stroke="#B69B68" stroke-linecap="round">
+    <line x1="60" y1="12" x2="175" y2="12" stroke-width="1" opacity="0.25"/>
+    <line x1="225" y1="12" x2="340" y2="12" stroke-width="1" opacity="0.25"/>
+    <!-- Center diamond -->
+    <path d="M192,12 L200,4 L208,12 L200,20 Z" stroke-width="1.2" fill="#B69B68" fill-opacity="0.08" opacity="0.4"/>
+    <!-- Small dots flanking -->
+    <circle cx="180" cy="12" r="1.5" fill="#B69B68" opacity="0.2"/>
+    <circle cx="220" cy="12" r="1.5" fill="#B69B68" opacity="0.2"/>
   </g>
 </svg>

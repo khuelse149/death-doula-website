@@ -1,55 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
-  <!-- Hand-drawn botanical corner decoration — upper-right style, can be rotated for other corners -->
-  <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Main curving vine/branch from upper right -->
-    <path d="M200,0 C195,10 185,25 170,40 C155,55 138,68 120,78 C102,88 85,94 68,98 C55,100 42,100 32,98"
-          stroke-width="1.5" opacity="0.45"/>
-    <!-- Second sketchy pass -->
-    <path d="M198,2 C192,12 182,28 168,42 C154,56 140,66 122,76 C108,84 90,92 72,96 C58,98 46,98 36,96"
-          stroke-width="0.5" opacity="0.18"/>
-
-    <!-- Leaves along the vine -->
-    <!-- Leaf 1 (near top) -->
-    <path d="M182,28 C176,22 170,18 166,16 C170,20 174,24 180,28" stroke-width="0.8" opacity="0.35"/>
-    <path d="M182,28 C176,22 170,18 166,16 C168,20 172,24 178,28 L182,28 Z" fill="currentColor" fill-opacity="0.03" stroke="none"/>
-
-    <!-- Leaf 2 -->
-    <path d="M160,46 C156,38 150,32 146,28 C150,34 154,40 158,44" stroke-width="0.8" opacity="0.35"/>
-    <path d="M160,46 C156,38 150,32 146,28 C148,34 152,40 158,44 L160,46 Z" fill="currentColor" fill-opacity="0.03" stroke="none"/>
-
-    <!-- Leaf 3 (larger) -->
-    <path d="M138,64 C130,56 122,50 116,46" stroke-width="0.9" opacity="0.38"/>
-    <path d="M138,64 C132,58 124,52 118,48 C122,54 128,60 136,64 L138,64 Z" fill="currentColor" fill-opacity="0.04" stroke="none"/>
-    <!-- Leaf vein -->
-    <path d="M136,62 C130,56 124,52 120,48" stroke-width="0.35" opacity="0.18"/>
-
-    <!-- Leaf 4 -->
-    <path d="M110,82 C106,74 100,68 96,64" stroke-width="0.8" opacity="0.35"/>
-    <path d="M110,82 C106,76 102,70 98,66 C100,72 104,78 108,82 L110,82 Z" fill="currentColor" fill-opacity="0.03" stroke="none"/>
-
-    <!-- Leaf 5 (near end) -->
-    <path d="M78,96 C76,90 72,86 68,82" stroke-width="0.7" opacity="0.3"/>
-    <path d="M78,96 C76,92 74,88 70,84 C72,88 74,92 78,96 Z" fill="currentColor" fill-opacity="0.03" stroke="none"/>
-
-    <!-- Small flower bud near middle of vine -->
-    <path d="M148,54 C152,50 156,48 158,44" stroke-width="0.7" opacity="0.3"/>
-    <circle cx="160" cy="42" r="3" stroke-width="0.6" opacity="0.28" fill="currentColor" fill-opacity="0.04"/>
-    <path d="M160,39 L160,36" stroke-width="0.4" opacity="0.18"/>
-
-    <!-- Small berries cluster near leaf 3 -->
-    <path d="M126,58 C130,54 134,52 136,50" stroke-width="0.5" opacity="0.25"/>
-    <circle cx="138" cy="48" r="1.8" stroke-width="0.5" opacity="0.25" fill="currentColor" fill-opacity="0.04"/>
-    <circle cx="134" cy="46" r="1.5" stroke-width="0.5" opacity="0.22" fill="currentColor" fill-opacity="0.03"/>
-    <circle cx="136" cy="50" r="1.3" stroke-width="0.4" opacity="0.2" fill="currentColor" fill-opacity="0.03"/>
-
-    <!-- Delicate tendril curls -->
-    <path d="M90,92 C86,88 82,90 80,94 C78,98 82,100 86,98" stroke-width="0.5" opacity="0.2"/>
-    <path d="M50,98 C46,95 42,96 40,100 C38,104 42,106 46,104" stroke-width="0.5" opacity="0.18"/>
-
-    <!-- Scattered seed dots -->
-    <circle cx="170" cy="35" r="0.7" fill="currentColor" opacity="0.15"/>
-    <circle cx="145" cy="60" r="0.6" fill="currentColor" opacity="0.12"/>
-    <circle cx="100" cy="86" r="0.8" fill="currentColor" opacity="0.13"/>
-    <circle cx="60" cy="96" r="0.5" fill="currentColor" opacity="0.1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Clean minimal corner accent: arc with small diamond -->
+  <g stroke="#B69B68" stroke-linecap="round">
+    <!-- Corner arc -->
+    <path d="M120,0 C110,10 80,30 50,45 C30,55 15,58 0,58" stroke-width="1" opacity="0.15" fill="none"/>
+    <!-- Inner arc -->
+    <path d="M120,0 C108,14 76,36 46,50 C28,58 14,62 0,62" stroke-width="0.5" opacity="0.08" fill="none"/>
+    <!-- Small diamond accent -->
+    <path d="M62,40 L66,36 L70,40 L66,44 Z" stroke-width="0.8" fill="#B69B68" fill-opacity="0.06" opacity="0.2"/>
+    <!-- Dot -->
+    <circle cx="36" cy="52" r="1.5" fill="#B69B68" opacity="0.12"/>
+    <circle cx="88" cy="24" r="1" fill="#B69B68" opacity="0.1"/>
   </g>
 </svg>
